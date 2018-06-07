@@ -1,0 +1,174 @@
+*{
+	margin:0;padding:0;
+}
+/*--------------------------------top------------------------------------*/
+.top{ width:auto;	height:auto;
+}
+.top_content{
+	overflow: hidden;position: relative;width: 1800px;margin:0 auto;
+}
+.top .top_content ul li{
+	float: left; margin-left: 50px;list-style: none;font-size: 15pt;font-weight: bold;
+}
+.top .top_content ul li a {
+	text-decoration: none;line-height:90px;color:#333;padding:35px 10px;margin: 0;
+}
+.top .top_content ul li a:hover{
+	border-bottom: 5px solid #68a5a0;color:#68a5a0;
+}
+.logo{
+	width:195px;height: 95px;position: relative;left: 300px;
+}
+.nav{
+	width: 800px;height: auto;
+}
+.fl{
+	/*float: left;*/display: inline-block;
+}
+.fr{
+	/*float: right;*/display: inline-block;position: absolute;left: 700px;
+}
+/*--------------------------------top----------------------------------------
+
+
+/*-------------------------------------banner--------------------------------*/
+.banner{
+	background:url(banner.jpg) no-repeat top center;height: 698px;
+}
+/*-------------------------------------banner--------------------------------*/
+
+
+
+/*---------------------------------------mk1--------------------------------------*/
+
+/*-----------------------------------------通用标题代码-------------------------------*/
+.title{
+	text-align: center;font-size: 20pt;color:steelblue;line-height: 40px;height: 100px;position: relative;top:30px;
+}
+/*.english{width:500px; text-align:center; margin:0 auto; font-size:15pt;line-height: 16px; 
+	background:url(background1.png) repeat-x;}
+.english span{background:#001020; padding:0px 5px 0px 5px; color:#999;}*/
+
+/*--------------------------改进通用代码----------------------------------*/
+fieldset{border:0 none;border-top:1px solid gray;width: 500px;
+	font-size: 15pt;margin:0 auto;position: relative;top:-10px;}
+legend{color:gray;}
+
+/*-----------------------------------------通用标题代码--------------------------------*/
+.mk1{width: 100%;height:470px;background-color: #001020;}
+.mk1_bottom{
+	width: 100%;height: 300px;margin-top:10px;
+}
+.mk1_bottom_content{
+	width:1200px;height:300px;background-color: mintcream;margin:0px auto;
+	display: flex;flex-direction: row;flex-wrap: nowrap;justify-content: space-between;align-items: center;
+}
+.imgl,.imgr,.text{
+	width:350px;height:300px;flex-grow: 1;
+}
+.mk1_bottom_content img{
+	margin:25px;
+}
+.imgr img{float:right;}
+.mk1_bottom_content .text ul{
+	font-size: 20px;font-weight: bold;width: 380px;line-height: 40px;margin:0px;padding:15px 0px 15px 0px;
+}
+.text{
+ 	color:gray;width: 380px;
+}
+.mk1_bottom_content .text ul li p{
+	font-size: 14px;line-height: 30px;text-indent: 20px;
+}
+/*---------------------------------------mk1-------------------------------------------------*/
+
+/*---------------------------------------mk2--------------------------------------------------*/
+.mk2{
+	background-color: #e8ebf1;width: 100%;height: 700px;
+}
+.mk2 .english span{background-color: #e8ebf1;}
+.mk2_bottom{
+	width:auto;height: auto;display: flex;flex-flow: row nowrap;justify-content: center;
+	text-align: center;
+}
+.part1,.part2,.part3,.part4{
+	width: 290px;height: 520px;margin:10px;background-color: white;
+}
+.mk2_bottom h3, .mk2_bottom p{line-height: 30px;text-indent: 2em;color:gray;padding: 7px;font-size: 15px;
+}
+.mk2_bottom a{
+	text-decoration: none;background-color: steelblue;padding: 5px 10px;color:#e8ebf1;
+	display: inline-block;margin-top:20px;
+}
+/*--------------------------------------mk2-----------------------------------------------------*/
+
+/*----------------------------------------mk3-------------------------------------------------*/
+.mk3{
+	width: 100%;height: 800px;background-image: url(background.jpg);background-size: cover;background-repeat: no-repeat;
+}
+/*.mk3 .mk3_english .left,.right{
+	background:url(background1.png) repeat-x top left;width: 180px;height: 16px;
+	text-align:center; margin:0 auto; font-size:15pt;line-height: 16px;display: inline-block;
+}
+.mk3 .english .left{float: left;}
+.mk3 .english .right{float: right;}
+.mk3 .mk3_english {font-size: 15pt;color:gray;}*/
+.mk3_bottom{margin:30px;width: 100%;height: auto;margin:10px auto;}
+.img,.text{width:300px;height: 300px;}
+.mk3 img{width: 300px;height: 300px;}
+.mk3_bottom table{
+	border-collapse:collapse;
+}
+.mk3_bottom .text{
+	line-height: 30px;text-align:center;background-color:#68a59f;opacity: 0.8;color:#fff;font-size: 15px;text-indent: 2em;
+}
+.mk3_bottom .text h3{line-height: 80px;} .mk3_bottom .text p{padding: 7px;}
+.mk3_bottom .text a{
+	text-decoration: none;background-color: steelblue;padding: 5px 10px;color:#e8ebf1;
+	display: inline-block;margin-top:20px;text-indent: 0;
+}
+.mk3_content{
+	width:1200px;height: auto;margin:0 auto;
+}
+/*----------------------------------------mk3------------------------------------------------------
+/*-----------------------------------------mk4------------------------------------------------------*/
+.mk4{width:100%;height:850px;background-color: white;}
+.mk4 .english span{background-color: white;}
+.mk4_bottom{
+	margin-top: 10px;
+}
+.mk4_bottom_content{
+	display: flex;flex-direction: row;flex-wrap: nowrap;justify-content: center;
+}
+.mk4_part1,.mk4_part2{
+	width: 600px;height: 530px;
+}
+.mk4_part1 .column,.mk4 .column{
+	width:600px;height:150px;margin:20px 0px;
+}
+.mk4_bottom_content img{
+	float:left;width: 200px;height: 150px;
+}
+.mk4_text{
+ 	overflow: hidden; padding:10px;line-height: 25px;color: gray;font-size: 15px;
+}
+.mk4_text a{
+	text-decoration: none;color: black;
+}
+.mk4 .Label{
+	margin-top:10px;
+}
+.mk4 h3{line-height: 40px;}
+
+
+/*-----------------------------------------mk4--------------------------------------------------------*/
+
+/*-----------------------------------------footer--------------------------------------------------*/
+.footer{width: 100%;height: auto;background-color: black;text-align: center;}
+.footer_text{
+	line-height: 30px;color:gray;padding-top: 80px;
+}
+.footer .navbar{position: relative;top:50px;}
+.footer .navbar a{text-decoration:none;color: white;padding:0px 20px;}
+span{
+	color:white;
+}
